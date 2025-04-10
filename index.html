@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/header.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <div class="logo">
+                <h1 class="logo">lab3-multipage</h1>
+            </div>
+            <div class="list">
+                <div id="clock" class="clock" style="color: white; font-size: 20px;"></div>
+                <li><a href="/">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <button id="themeToggle"  style="background-color: #01f853; color: black; border-radius: 10px; border: none; height: 30px; cursor: pointer;">Switch Theme</button>
+            </div>
+        </ul>
+
+    </nav>
+
+    <!-- PROJECT SHOWCASE -->
+    <div class="projects">
+        <h2>Our Projects</h2>
+        <div class="project-gallery">
+            <a href="#" class="project">
+                <img src="/images/proj1.jpg" alt="Project 1">
+            </a>
+            <a href="#" class="project">
+                <img src="/images/proj2.png" alt="Project 2">
+            </a>
+            <a href="#" class="project">
+                <img src="/images/proj3.jpg" alt="Project 3">
+            </a>
+            <a href="#" class="project">
+                <img src="/images/proj4.jpg" alt="Project 4">
+            </a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="welcome">
+            <p class="welcome-text">
+                <u>Our Team</u>
+            </p>
+        </div>
+
+        <div class="group">
+            <section class="box">
+                <div class="box-img">
+                    <img src="/images/19.jpg" alt="Royd Nyambe">
+                </div>
+                <div class="box-content">
+                    <h2>Royd Nyambe</h2>
+                    <p>Software Engineer at the University of Zambia</p>
+                    <button>Call Me</button>
+                </div>
+            </section>
+
+            <section class="box">
+                <div class="box-img">
+                    <img src="/images/moses.jpg" alt="Moses Kaluba">
+                </div>
+                <div class="box-content">
+                    <h2>Moses Kaluba</h2>
+                    <p>Software Engineer at the University of Zambia</p>
+                    <button>Call Me</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="team-section">
+            <h2>Team Members</h2>
+            <div class="team-grid" id="userList">
+                <!-- Users will be loaded here -->
+            </div>
+            <button id="loadUsersBtn" class="load-btn">Load Users</button>
+        </div>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3 class="question">What is this website about?</h3>
+            <p class="answer">This is a demo project for learning web development.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="question">Who built this site?</h3>
+            <p class="answer">This site was built by students at the University of Zambia as part of a lab exercise.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="question">Can I contribute?</h3>
+            <p class="answer">Absolutely! Reach out through the contact page to get involved.</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Our Company. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="#">Twitter</a> | 
+                <a href="#">LinkedIn</a> | 
+                <a href="#">GitHub</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

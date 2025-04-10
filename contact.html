@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/contacts.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="nav">
+        <ul  class="nav-list">
+            <div class="logo">
+                <h1 class="logo">lab3-multipage</h1>
+            </div>
+            <div class="list">
+                <li><a href="/">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <button id="themeToggle"  style="background-color: #01f853; color: black; border-radius: 10px; border: none; height: 30px; cursor: pointer;">Switch Theme</button>
+            </div>
+        </ul>
+
+    </nav>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="nameInput" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="emailInput" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subjectInput" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="messageInput" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+
+             <!-- Response message -->
+            <div id="response" style="margin-top: 20px; font-weight: bold;"></div>
+        </form>
+        
+       
+        
+    </div>
+    <footer>
+        <p>&copy; 2025 Our Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
